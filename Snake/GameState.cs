@@ -22,6 +22,7 @@ namespace Snake
             Dir = Direction.Right;
 
             AddSnake();
+            AddFood();
         }
 
         private void AddSnake()
